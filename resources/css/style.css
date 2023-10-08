@@ -4,6 +4,10 @@ html {
     padding: 10px;
 }
 
+h1 {
+    color: firebrick;
+}
+
 img {
     max-width: 300px;
     width: 50%;
