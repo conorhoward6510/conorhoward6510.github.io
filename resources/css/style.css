@@ -5,7 +5,41 @@
 html {
     color: white;
     background-color: #111;
-    padding: 10px;
+    /* padding: 10px; */
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    padding: 8px 8px 0;
+}
+
+main {
+    padding: 0 8px;
+}
+
+footer {
+    background-color: firebrick;
+    text-align: center;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer li {
+    display: inline-block;
+    padding: 20px;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: black;
 }
 
 h1 {
