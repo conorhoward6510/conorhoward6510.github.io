@@ -5,11 +5,12 @@
 html {
     color: white;
     background-color: #111;
-    /* padding: 10px; */
 }
 
 body {
     margin: 0;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 header {
@@ -23,6 +24,7 @@ main {
 footer {
     background-color: firebrick;
     text-align: center;
+    clear: both;
 }
 
 footer ul {
@@ -47,6 +49,19 @@ h1 {
 }
 
 img {
-    max-width: 300px;
     width: 50%;
+    max-width: 300px;
+    float: right;
+}
+
+@media only screen and (max-width: 700px) {
+    img {
+      width: 75%;
+      max-width: none;
+      float: none;
+    }
+
+    p {
+        font-size: 150%;
+    }
 }
