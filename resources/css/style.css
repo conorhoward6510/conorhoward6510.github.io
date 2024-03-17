@@ -48,14 +48,14 @@ h1 {
     color: firebrick;
 }
 
-img {
+#profile {
     width: 50%;
     max-width: 300px;
     float: right;
 }
 
 @media only screen and (max-width: 700px) {
-    img {
+    #profile {
       width: 75%;
       max-width: none;
       float: none;
