@@ -1,0 +1,21 @@
+body {
+  text-align: center;
+  background-color: rgb(40, 40, 40);
+  color: snow;
+}
+
+h1,
+h2 {
+  color: #b22222;
+}
+
+table {
+  margin: 0 auto;
+  border: 1px solid snow;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 1px 10px;
+  border: 1px solid snow;
+}
