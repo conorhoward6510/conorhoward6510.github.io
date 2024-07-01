@@ -10,7 +10,12 @@ async function getData() {
     }
 
     const json = await response.json();
-    json.sort((a, b) => b["2024_points"] - a["2024_points"]);
+    json.sort(function (a, b) {
+      if (a["2024_points"] === b["2024_points"]) {
+        return a["highest_2024_finish"] - b["highest_2024_finish"];
+      }
+      return b["2024_points"] - a["2024_points"];
+    });
 
     buildDriversTable(json);
     buildConstructorsTable(json);
